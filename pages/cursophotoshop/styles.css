@@ -55,6 +55,11 @@ hr{
     display: flex;
     justify-content: center;
     text-align: center;
+    transition: .2s ease;
+}
+
+.card-curso:hover{
+    scale: 1.1;
 }
 
 .card-curso a{
@@ -69,3 +74,4 @@ hr{
     height: 26vh;
     border-radius: 8px;
 }
+

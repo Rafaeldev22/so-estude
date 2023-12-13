@@ -101,6 +101,11 @@ body {
   transition: 0.2s ease;
 }
 
+#capa-ux{
+  background-size: cover;
+  background-position: right;
+}
+
 .capas:hover {
   /* transform: scale(1.1); */
   filter: blur(10px);

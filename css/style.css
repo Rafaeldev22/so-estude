@@ -205,7 +205,7 @@ a:hover {
 @media (max-width: 425px) {
 
   .logo{
-    width: 35vw;
+    width: 30vw;
   }
 
   h1{
@@ -215,6 +215,7 @@ a:hover {
   .pai {
     width: 100%;
     height: auto;
+    overflow-x: hidden;
   }
 
   .designer {
@@ -227,10 +228,22 @@ a:hover {
     padding: 5px;
   }
 
+  .cards{
+    /* border: 1px solid red; */
+    gap: 20px;
+  }
+
   .capas{
-    width: 60vw;
+    width: 68vw;
     height: 55vh;
   }
 
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    display: none;
+  }
 
 }

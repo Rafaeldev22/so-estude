@@ -101,7 +101,7 @@ body {
   transition: 0.2s ease;
 }
 
-#capa-ux{
+#capa-ux {
   background-size: cover;
   background-position: right;
 }
@@ -187,102 +187,50 @@ a:hover {
 }
 
 @media (max-width: 1440px) {
-  .nav-bar {
-    margin-left: 50px;
+  .pai {
+    width: 100%;
   }
 
   .designer {
-    /* border: 1px solid red; */
-    margin-left: 20px;
     text-align: center;
+    padding: 30px;
   }
 
   .tecnologia {
-    margin-left: 20px;
     text-align: center;
+    padding: 30px;
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 425px) {
 
-    .nav-bar .logo{
-        margin-left: 230px;
-        width: 150px;
-        margin-top: 20px;
-    }
+  .logo{
+    width: 35vw;
+  }
 
+  h1{
+    font-size: 25px;
+  }
+
+  .pai {
+    width: 100%;
+    height: auto;
+  }
 
   .designer {
-    width:85%;
-    margin-left: 230px;
-    text-align: center;
+    width:100%;
+    padding: 5px;
   }
 
   .tecnologia {
-    width:85%;
-    margin-left: 230px;
-    text-align: center;
+    width:100%;
+    padding: 5px;
   }
 
+  .capas{
+    width: 60vw;
+    height: 55vh;
+  }
 
-}
-
-@media (max-width:768px){
-
-    .nav-bar .logo{
-
-        margin-left: 360px;
-
-    }
-
-    .designer{
-        width: 75%;
-        margin-left: 360px;
-    }
-
-    .tecnologia{
-        width: 75%;
-        margin-left: 360px;
-    }
-
-}
-
-@media (max-width: 425px){
-
-    .nav-bar .logo{
-        margin-left: 517px;
-    }
-
-    .designer{
-        width: 66%;
-        margin-left: 518px;
-    }
-
-    .tecnologia{
-        width: 66%;
-        margin-left: 518px;
-    }
-
-}
-
-@media (max-width:320px){
-
-    body{
-      border: 1px solid red;
-    }
-
-    .nav-bar .logo{
-        margin-left: 565px;
-    }
-
-    .designer{
-        width: 65%;
-        margin-left: 550px;
-    }
-
-    .tecnologia{
-        width: 65%;
-        margin-left: 550px;
-    }
 
 }

@@ -5,10 +5,6 @@ const modal = document.querySelector("#card-modal");
 const iframe = document.querySelector(".game");
 const voltar = document.querySelector(".voltar");
 
-
-
-
-
 fechar.addEventListener("click", () => {
   fecharVideo();
   toggleModal();
@@ -17,7 +13,7 @@ fechar.addEventListener("click", () => {
 function toggleModal() {
   fade.classList.toggle("hide");
   modal.classList.toggle("hide");
-  fecharVideo()
+  fecharVideo();
 }
 
 [abrir, fechar, fade].forEach((el) => {
@@ -30,9 +26,7 @@ function fabrir() {
 
 function fecharVideo() {
   let iframe = document.querySelector(".game");
-
-  var iframeSrc = iframe.src;
-  iframe.src = iframeSrc;
+  iframe.src = "";
 }
 
 function desabilitarFull() {

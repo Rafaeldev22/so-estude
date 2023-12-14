@@ -216,11 +216,13 @@ a:hover {
     width: 100%;
     height: auto;
     overflow-x: hidden;
+    padding: 15px;
   }
 
   .designer {
     width:100%;
     padding: 10px;
+    margin-bottom: 8px;
   }
 
   .tecnologia {
@@ -234,7 +236,7 @@ a:hover {
 
   .capas{
     width: 68vw;
-    height: 55vh;
+    height: 52vh;
   }
 
   ::-webkit-scrollbar {

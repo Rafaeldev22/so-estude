@@ -75,3 +75,99 @@ hr{
     border-radius: 8px;
 }
 
+@media (max-width: 1440px){
+
+    body{
+        width: 100vw;
+        height: 100vh;
+        /* background-color: #001f36; */
+        background-image: url("https://i.ibb.co/ZBfjnTs/back.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .title{
+        height: 40vh;
+        padding: 5px;
+    }
+
+    .cursos{
+        display: flex;
+        align-items: center;
+        margin-top: -5%;
+    }
+
+
+}
+
+@media (max-width: 768px){
+
+    h1{
+        font-size: 5rem;
+    }
+
+    .cursos{
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        margin-top: -5%;
+    }
+
+    .cursos a{
+        font-weight: bold;
+        font-size: 17px;
+
+    }
+
+    .cursos img{
+        width: 22vw;
+        top: -10px;
+    }
+
+    .card-curso{
+        margin-top: -50px;
+    }
+
+}
+
+@media (max-width: 425px){
+
+    body{
+        width: 100vw;
+        height: 100vh;
+        /* background-color: #001f36; */
+        background-image: url("https://i.ibb.co/ZBfjnTs/back.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .title h1 {
+        font-size: 3.3rem;
+    }
+
+    .regular{
+        font-size: 2rem;
+    }
+
+    .cursos{
+        display: flex;
+        gap: 70px;
+    }
+
+    .cursos img{
+        display: flex;
+        /* gap: 5px; */
+        width: 25vw;
+        height: 18vh;
+
+    }
+
+    .cursos a{
+        font-size: 15px;
+    }
+
+
+}
+

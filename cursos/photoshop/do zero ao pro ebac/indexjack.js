@@ -16,8 +16,7 @@ fechar.addEventListener("click", () => {
 function toggleModal() {
     fade.classList.toggle("hide");
     modal.classList.toggle("hide");
-
-
+    fecharVideo();
 }
 
 [abrir, fechar, fade].forEach((el) => {
@@ -26,7 +25,7 @@ function toggleModal() {
 
 function fabrir() {
 
-    toggleModal()
+    toggleModal();
 
 }
 
@@ -37,4 +36,16 @@ function fecharVideo(){
     iframe.src = iframeSrc;
 }
 
+function desabilitarFull() {
+    if (
+      /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+        navigator.userAgent
+      )
+    ) {
+      iframe.removeAttribute("allowfullscreen");
+    }
+}
+
+  // Chamar a função de desabilitar fullscreen no carregamento da página
+  desabilitarFull();
 

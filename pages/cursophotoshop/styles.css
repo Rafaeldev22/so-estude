@@ -172,6 +172,7 @@ hr {
     width: 80vw;
     height: 100%;
     overflow: auto;
+    gap: 120px;
   }
 
   .container-curso a {
@@ -186,4 +187,6 @@ hr {
     width: 250px;
     margin-top: 22%;
   }
+
+
 }

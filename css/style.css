@@ -267,6 +267,10 @@ a:hover {
 
 @media (max-width:320px){
 
+    body{
+      border: 1px solid red;
+    }
+
     .nav-bar .logo{
         margin-left: 565px;
     }

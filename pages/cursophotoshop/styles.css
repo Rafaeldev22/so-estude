@@ -144,6 +144,10 @@ hr {
     background-position: center;
   }
 
+  .title{
+    height: 20vh;
+  }
+
   .title h1 {
     font-size: 3.3rem;
   }
@@ -156,7 +160,7 @@ hr {
     display: flex;
     flex-direction: column;
     gap: 50px;
-    height: 56vh;
+    height: 70vh;
     margin-top: -15%;
   }
 

@@ -2,6 +2,7 @@ const abrir = document.querySelector("#abrir-modal");
 const fechar = document.querySelector("#fechar");
 const fade = document.querySelector("#fade");
 const modal = document.querySelector("#card-modal");
+const iframe = document.querySelector(".game")
 
 
 
@@ -37,4 +38,12 @@ function fecharVideo(){
     iframe.src = iframeSrc;
 }
 
+function disableFullScreenOnMobile() {
+    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+        iframe.removeAttribute('allowfullscreen');
+    }
+}
+
+// Chamar a função de desabilitar fullscreen no carregamento da página
+disableFullScreenOnMobile();
 

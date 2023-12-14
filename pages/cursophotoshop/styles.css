@@ -172,7 +172,7 @@ hr {
     width: 80vw;
     height: 100%;
     overflow: auto;
-    gap: 120px;
+    gap: 100px;
   }
 
   .container-curso a {

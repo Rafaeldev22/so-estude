@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  /* background-color: #001f36; */
+  background-image: url("https://i.ibb.co/wMhNnXb/Cyberpunk-Text-Effect-Recuperado2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.dobra {
+  position: fixed;
+  z-index: 4;
+  width: 100vw;
+  height: 5vh;
+  padding: 15px;
+}
+
+.voltar {
+  border: 1px solid rgb(91, 255, 91);
+  color: rgb(91, 255, 91);
+  padding: 8px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  /* z-index: 1000; */
+}
+
+.title {
+  /* border: 1px solid red; */
+  height: 35vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 3rem;
+  font-family: sans-serif;
+  color: white;
+}
+
+.regular {
+  font-weight: 100;
+  font-size: 4rem;
+}
+
+hr {
+  width: 50vw;
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 90px;
+}
+
+.cursos {
+  /* border: 2px solid red; */
+  max-width: 1330px;
+  margin: 0 auto;
+  height: 50vh;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.container-curso {
+  display: flex;
+  gap: 100px;
+}
+
+.card-curso {
+  /* border: 1px solid red; */
+  max-width: 14vw;
+  height: 26vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  transition: 0.2s ease;
+}
+
+.card-curso:hover {
+  scale: 1.1;
+}
+
+.card-curso a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  font-weight: 600;
+}
+
+.capa-curso {
+  width: 17vw;
+  height: 26vh;
+  border-radius: 8px;
+}
+
+@media (max-width: 1440px) {
+  body {
+    width: 100vw;
+    height: 100vh;
+    /* background-color: #001f36; */
+    background-image: url("https://i.ibb.co/ZBfjnTs/back.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .title {
+    height: 40vh;
+    padding: 5px;
+  }
+
+  .cursos {
+    display: flex;
+    align-items: center;
+    margin-top: -5%;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 5rem;
+  }
+
+  .cursos {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    margin-top: -5%;
+  }
+
+  .cursos a {
+    font-weight: bold;
+    font-size: 17px;
+  }
+
+  .cursos img {
+    width: 22vw;
+    top: -10px;
+  }
+
+  .card-curso {
+    margin-top: -50px;
+  }
+}
+
+@media (max-width: 425px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://i.ibb.co/ZBfjnTs/back.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .title{
+    height: 20vh;
+  }
+
+  .title h1 {
+    font-size: 3.3rem;
+  }
+
+  .regular {
+    font-size: 2rem;
+  }
+
+  .cursos {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    height: 70vh;
+    margin-top: -15%;
+  }
+
+  .container-curso {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 80vw;
+    height: 100%;
+    overflow: auto;
+    gap: 72px;
+  }
+
+  .container-curso a {
+    font-size: 0.9rem;
+  }
+
+  .card-curso {
+    width: auto;
+  }
+
+  .card-curso a img {
+    width: 190px;
+    height: 180px;
+    margin-top: 42%;
+  }
+
+
+}

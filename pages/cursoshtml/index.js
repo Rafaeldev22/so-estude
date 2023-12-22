@@ -1,5 +1,12 @@
 const btn = document.querySelector(".voltar");
 
+
 btn.addEventListener("click", () => {
-    history.back();
+    let idDestino = "tecnologia";
+
+    window.location.href = "/index.html#" + idDestino;
+
+    // alert("ola")
+
+
 })

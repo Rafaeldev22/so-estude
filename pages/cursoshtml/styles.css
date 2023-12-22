@@ -56,7 +56,6 @@ hr {
 }
 
 .cursos {
-  /* border: 2px solid red; */
   max-width: 1330px;
   margin: 0 auto;
   height: 50vh;
@@ -68,6 +67,7 @@ hr {
 
 .container-curso {
   display: flex;
+  justify-content: center;
   gap: 100px;
 }
 

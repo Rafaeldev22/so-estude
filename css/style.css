@@ -293,13 +293,16 @@ a:hover {
 
 
   .cards {
-    height: 60vh;
+    margin-top: -10px;
+    /* padding: 10px 2px; */
+    height: 58vh;
     gap: 20px;
   }
 
   .capas {
+    margin-top: 3% ;
     width: 68vw;
-    height: 52vh;
+    height: 55vh;
   }
 
   ::-webkit-scrollbar {

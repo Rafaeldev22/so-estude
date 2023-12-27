@@ -145,6 +145,7 @@ a:hover {
     rgba(23, 168, 198, 1) 42%,
     rgba(0, 212, 255, 1) 100%
   );
+
   -webkit-background-clip: text;
   color: transparent;
 }

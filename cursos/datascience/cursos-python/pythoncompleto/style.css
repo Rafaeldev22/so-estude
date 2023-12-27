@@ -1,0 +1,201 @@
+.banner {
+  height: 70vh;
+  /* z-index: 1000; */
+
+}
+
+.dobra {
+  position: fixed;
+  z-index: 4;
+  width: 100vw;
+  height: 5vh;
+  padding: 15px;
+}
+
+.voltar {
+  border: 1px solid rgb(91, 255, 91);
+  color: rgb(91, 255, 91);
+  padding: 8px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  /* z-index: 1000; */
+}
+
+.banner-python {
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+}
+
+.paragrafo {
+  margin-top: -5%;
+  width: 100%;
+  z-index: 1;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.texto {
+  width: 1250px;
+  font-size: 1.2rem;
+}
+
+.btns {
+  max-width: 1700px;
+  padding: 20px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.doc{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.doc a{
+  color: #fff;
+  transition: .2s ease;
+}
+
+.doc a:hover{
+  color: blue;
+}
+
+/* modal */
+
+#fade {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+  backdrop-filter: blur(10px);
+}
+
+#modal {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 850px;
+  height: 495px;
+  max-width: 95%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 1.2rem;
+  border-radius: 0.5rem;
+  z-index: 10;
+}
+
+#card-modal {
+  /* border: 2px solid red; */
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#fechar {
+  /* border: 1px solid red; */
+  position: absolute;
+  cursor: pointer;
+  top: -35px;
+  right: -22px;
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  color: white;
+  font-weight: 600;
+  opacity: 0.4;
+  z-index: 99;
+  transition: 0.2s ease;
+}
+
+#fechar:hover {
+  opacity: 1;
+}
+
+#fade.hide,
+#card-modal.hide {
+  opacity: 0;
+  /* display: none; */
+  pointer-events: none;
+}
+
+.info {
+  color: black;
+  background-color: #ebebeb;
+  width: 300px;
+  height: 29px;
+  font-weight: 600;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  /* text-align: center; */
+  border-radius: 6px;
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+
+#fade,
+#card-modal {
+  transition: 0.5s;
+  opacity: 1;
+  pointer-events: all;
+}
+
+.check {
+  position: absolute;
+  right: 1px;
+  top: 3px;
+  width: 70px;
+  z-index: 999999;
+}
+
+.game {
+  border-radius: 10px;
+}
+
+@media (max-width: 425px){
+
+  #card-modal{
+    width: 95vw;
+    height: 40vh;
+  }
+
+  #fechar{
+    position: absolute;
+    top: -5vh;
+  }
+
+  .check{
+    position: absolute;
+    top: 0vh;
+    width: 14vw;
+  }
+
+  .game{
+    width: 100%;
+  }
+
+
+}
+
+

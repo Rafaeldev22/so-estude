@@ -47,14 +47,14 @@ body {
 
 .menu-um {
   display: flex;
-  gap: 15px;
-  list-style-type: none;
+  gap: 30px;
+  list-style-type: circle;
 }
 
 .menu-dois {
   display: flex;
-  gap: 15px;
-  list-style-type: none;
+  gap: 30px;
+  list-style-type: circle;
 }
 
 .menu-um a {

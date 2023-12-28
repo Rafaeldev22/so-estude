@@ -175,3 +175,28 @@
 }
 
 
+@media (max-width: 425px){
+
+  #card-modal{
+    width: 95vw;
+    height: 40vh;
+  }
+
+  #fechar{
+    position: absolute;
+    top: -5vh;
+  }
+
+  .check{
+    position: absolute;
+    top: 0vh;
+    width: 14vw;
+  }
+
+  .game{
+    width: 100%;
+  }
+
+
+}
+
